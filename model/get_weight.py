@@ -5,7 +5,7 @@ def Get_weight():
     os.system('pip install gdown  > /dev/null')
     print('Please wait : 1/3')
     if not os.path.isfile('model_best.pth.tar'):
-        os.system('gdown https://drive.google.com/uc?id=1Ysh-QhyvZ4q2Q8_zjlDo0uituARrQjWZ > /dev/null')
+        os.system('gdown https://drive.google.com/uc?id=1Ysh-QhyvZ4q2Q8_zjlDo0uituARrQjWZ > /dev/null 2>&1')
     # os.system('apt update -y')
     # os.system('apt install git -y')
     print('Please wait : 2/3')
